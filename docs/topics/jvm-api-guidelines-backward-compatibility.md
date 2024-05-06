@@ -24,7 +24,7 @@ There are at least three types of compatibility when talking about APIs:
 * Behavioral
 * Binary
 
-### Read more about compatibility types {initial-collapse-state="collapsed"}
+### Read more about compatibility types {initial-collapse-state="collapsed" collapsible="true"}
 
 You can count versions of a library as **source-compatible** when you're sure that your client's application will 
 recompile correctly against a newer version of your library. Usually, it's difficult to implement and check this 
@@ -116,7 +116,7 @@ There is a `NoSuchMethodError` because the signature of the `fib()` function cha
 If you recompile `client.kt`, it will work again because it will be aware of the new signature. In this example, 
 **binary compatibility was broken while preserving source compatibility**.
 
-##### Learn more about what happened with the help of decompilation {initial-collapse-state="collapsed"}
+##### Learn more about what happened with the help of decompilation {initial-collapse-state="collapsed" collapsible="true"}
 
 > This explanation is JVM-specific.
 >

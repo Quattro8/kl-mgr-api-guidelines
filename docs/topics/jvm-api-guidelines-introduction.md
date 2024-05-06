@@ -16,7 +16,7 @@ It consists of the following chapters:
 Many of the following best practices provide advice on how to reduce the cognitive complexity of an API. As such, 
 this guide provides an explanation of cognitive complexity before proceeding to best practices.
 
-### Cognitive complexity {initial-collapse-state="collapsed"}
+### Cognitive complexity {initial-collapse-state="collapsed" collapsible="true"}
 
 Cognitive complexity is the amount of mental effort a person needs to spend to understand a piece of code. A codebase with 
 high cognitive complexity is more difficult to understand and maintain, which can lead to bugs and delays in development.
