@@ -1,16 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE product-profile
-        SYSTEM "https://resources.jetbrains.com/stardust/product-profile.dtd">
-
-<product-profile id="kl"
-                 name="API guidelines"
-                 start-page="jvm-api-guidelines-introduction.md">
-
-    <chunk include-id="api-guidelines">
-        <toc-element id="jvm-api-guidelines-introduction.md"/>
-        <toc-element id="jvm-api-guidelines-readability.md"/>
-        <toc-element id="jvm-api-guidelines-predictability.md"/>
-        <toc-element id="jvm-api-guidelines-debuggability.md"/>
-        <toc-element id="jvm-api-guidelines-backward-compatibility.md"/>
-    </chunk>
-</product-profile>
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE instance-profile SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+<instance-profile id="kl" name="API guidelines" start-page="jvm-api-guidelines-introduction.md">
+	<snippet id="api-guidelines">
+		<toc-element topic="jvm-api-guidelines-introduction.md"/>
+		<toc-element topic="jvm-api-guidelines-readability.md"/>
+		<toc-element topic="jvm-api-guidelines-predictability.md"/>
+		<toc-element topic="jvm-api-guidelines-debuggability.md"/>
+		<toc-element topic="jvm-api-guidelines-backward-compatibility.md"/>
+	</snippet>
+</instance-profile>
