@@ -117,7 +117,7 @@ fun a(block: A.() -> Unit): A
 > anything from them. Typically this isn't a problem, because most developers only add more properties to their builder 
 > classes over time.
 >
-{type="note"}
+{style="note"}
 
 ## Use constructor-like functions where applicable
 

@@ -47,7 +47,7 @@ This results in improved output:
 > In the [Backward compatibility](jvm-api-guidelines-backward-compatibility.md) section of this guide, you'll learn 
 > [why it's better not to do this](jvm-api-guidelines-backward-compatibility.md#don-t-use-data-classes-in-an-api).
 >
-{type="note"}
+{style="note"}
 
 Consider implementing `toString()` even if you don't think the class is going to be printed anywhere, as it can help in 
 unexpected ways. For example, inside [builders](https://en.wikipedia.org/wiki/Builder_pattern#:~:text=The%20builder%20pattern%20is%20a,Gang%20of%20Four%20design%20patterns), 

@@ -17,7 +17,7 @@ your API's users to extend your hierarchy.
 
 > Remember that adding a new implementation to a sealed interface will immediately make a user's existing code invalid.
 >
-{type="warning"}
+{style="warning"}
 
 For example, JSON types can be of six types: object, array, number, string, boolean, and null. Creating a generic 
 `interface JsonElement` can result in errors because a user can accidentally define a new implementation of 
@@ -109,7 +109,7 @@ of an exception, it will be an `IllegalArgumentException` with a meaningful mess
 
 > If you have implemented input validation, you should also document these checks.
 >
-{type="tip"}
+{style="tip"}
 
 ### Validate state with the check() function
 

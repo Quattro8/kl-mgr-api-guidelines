@@ -120,7 +120,7 @@ If you recompile `client.kt`, it will work again because it will be aware of the
 
 > This explanation is JVM-specific.
 >
-{type="note"}
+{style="note"}
 
 Let's call [`javap`](https://docs.oracle.com/en/java/javase/20/docs/specs/man/javap.html) on the `LibKt` class before 
 the changes:
@@ -232,7 +232,7 @@ In addition, if you add a field into the class's body, you have to override the 
 > It's always an incompatible change to swap the order of arguments because of `componentX()` methods. It breaks source
 > compatibility and probably will break binary compatibility, too.
 >
-{type="warning"}
+{style="warning"}
 
 ### Don't make return types narrower
 
@@ -353,7 +353,7 @@ and there is also another solution: [japicmp](#japicmp).
 
 > At the moment, both work only for the JVM.
 >
-{type="note"}
+{style="note"}
 
 Both solutions have their advantages and disadvantages. japicmp works for any JVM language, and it's both a CLI tool and 
 a build system plugin. However, it requires having both old and new applications packaged as JAR files. It's not that 
